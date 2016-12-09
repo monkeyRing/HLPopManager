@@ -16,7 +16,7 @@
 ## Requirements
  *  **Xcode8.1 +**
  *  **iOS9.0 +**
- *  **Swift 3.0 + **
+ *  **Swift 3.0 +**
 
 ## Installation
 ## CocoaPods 
