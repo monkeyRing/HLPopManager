@@ -28,6 +28,3 @@ monkeyRing, 502086651@qq.com
 ## License
 
 HLPopManager is available under the MIT license. See the LICENSE file for more info.
-=======
-一个弹出视图的管理类  
->>>>>>> 1bd9b1da05607d8bb0d6d075ccd90d00464df2dc
