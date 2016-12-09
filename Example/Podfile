@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HLPopManager_Example' do
+  pod 'HLPopManager', :path => '../'
+
+  target 'HLPopManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
