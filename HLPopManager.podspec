@@ -1,7 +1,7 @@
 
 
 Pod::Spec.new do |s|
-s.name             = "HLPresentTool"
+s.name             = "HLPopManager"
 s.version          = "0.1.0"
 s.summary          = "HLPopManager is a swift module for popViewManager."
 s.homepage         = "https://github.com/MonkeyRing/HLPopManager.git"
