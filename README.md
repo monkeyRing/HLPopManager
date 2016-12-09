@@ -10,15 +10,47 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-Xcode8.1
-iOS9.0+
+#### Xcode8.1
+#### iOS9.0+
+#### Swift 3.0 
 ## Installation
+
+### cocoaPods 
+
+[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+
+```
+$ gem install cocoapods
+```
 
 HLPopManager is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
-pod "HLPopManager"
+```
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+use_frameworks!
+inhibit_all_warnings!
+
+target :<Your Target Name> do
+    pod 'HLPopManager'
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['ENABLE_BITCODE'] = 'NO'
+            config.build_settings['SWIFT_VERSION'] = '3.0' # or '2.3'
+        end
+    end
+end
+
+```
+
+#### Then, run the following command:
+
+```
+ $ pod "HLPopManager"
 ```
 
 ## Author
