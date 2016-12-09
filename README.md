@@ -5,6 +5,12 @@
 [![License](https://img.shields.io/cocoapods/l/HLPopManager.svg?style=flat)](http://cocoapods.org/pods/HLPopManager)
 [![Platform](https://img.shields.io/cocoapods/p/HLPopManager.svg?style=flat)](http://cocoapods.org/pods/HLPopManager)
 
+## Preview
+
+
+[screenshot](https://www.github.com)
+
+
 ## Example
 
 ### Use following command: 
@@ -14,8 +20,8 @@
 ```
 
 ## Requirements
- *  **Xcode8.1 +**
- *  **iOS9.0 +**
+ *  **Xcode 8.1 +**
+ *  **iOS 9.0 +**
  *  **Swift 3.0 +**
 
 ## Installation
