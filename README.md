@@ -1,5 +1,4 @@
 # HLPopManager
-<<<<<<< HEAD
 
 [![CI Status](http://img.shields.io/travis/monkeyRing/HLPopManager.svg?style=flat)](https://travis-ci.org/monkeyRing/HLPopManager)
 [![Version](https://img.shields.io/cocoapods/v/HLPopManager.svg?style=flat)](http://cocoapods.org/pods/HLPopManager)
@@ -11,7 +10,8 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-
+Xcode8.1
+iOS9.0+
 ## Installation
 
 HLPopManager is available through [CocoaPods](http://cocoapods.org). To install
@@ -23,7 +23,7 @@ pod "HLPopManager"
 
 ## Author
 
-monkeyRing, 502086651@qq.com
+hailong.huang, 502086651@qq.com
 
 ## License
 
