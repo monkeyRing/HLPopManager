@@ -1,0 +1,16 @@
+PODS:
+  - HLPopManager (0.1.0)
+
+DEPENDENCIES:
+  - HLPopManager (from `../`)
+
+EXTERNAL SOURCES:
+  HLPopManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HLPopManager: 6f2397625102f384c850db9cbabb6c841c32f862
+
+PODFILE CHECKSUM: 2364f420a5b50eca889ac3989e9e8bcfc5b9be84
+
+COCOAPODS: 1.2.0.beta.1

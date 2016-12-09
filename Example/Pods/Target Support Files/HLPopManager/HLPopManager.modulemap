@@ -1,0 +1,6 @@
+framework module HLPopManager {
+  umbrella header "HLPopManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

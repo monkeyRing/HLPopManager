@@ -1,0 +1,22 @@
+{
+  "name": "HLPopManager",
+  "version": "0.1.0",
+  "summary": "A short description of HLPopManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/HLPopManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "monkeyRing": "502086651@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/HLPopManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HLPopManager/Classes/**/*"
+}
