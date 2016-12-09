@@ -7,16 +7,16 @@
 
 ## Example
 
-#### use following command: 
+### Use following command: 
 
 ```
- $ git clone 
+ $ git clone https://github.com/MonkeyRing/HLPopManager.git or download this zip.
 ```
 
 ## Requirements
- * #### Xcode8.1
- * #### iOS9.0+
- * #### Swift 3.0 
+ *  **Xcode8.1**
+ *  **iOS9.0**
+ *  **Swift 3.0**
 
 ## Installation
 ## CocoaPods 
