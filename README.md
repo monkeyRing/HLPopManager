@@ -7,15 +7,19 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+#### use following command: 
+
+```
+ $ git clone 
+```
 
 ## Requirements
  * #### Xcode8.1
  * #### iOS9.0+
  * #### Swift 3.0 
-## Installation
 
-### cocoaPods 
+## Installation
+## CocoaPods 
 
 [CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
 
