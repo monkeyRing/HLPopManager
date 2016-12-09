@@ -15,6 +15,10 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9D8D77EC3B1431D06CE54906 /* Pods_HLPopManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE64BE3D2907D0425B556A9 /* Pods_HLPopManager_Tests.framework */; };
+		D9DDA4101DFAB70E00698E0A /* ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDA40C1DFAB70E00698E0A /* ActionSheet.swift */; };
+		D9DDA4111DFAB70E00698E0A /* ActionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9DDA40D1DFAB70E00698E0A /* ActionSheet.xib */; };
+		D9DDA4121DFAB70E00698E0A /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDA40E1DFAB70E00698E0A /* ShareView.swift */; };
+		D9DDA4131DFAB70E00698E0A /* ShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9DDA40F1DFAB70E00698E0A /* ShareView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		7C48DE7C1F87DA20F9C9BFE7 /* Pods-HLPopManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLPopManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLPopManager_Tests/Pods-HLPopManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AB87E06FA3F4CB535E02F920 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AE3EC8E722AE2AA880C7DB3C /* Pods_HLPopManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLPopManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DDA40C1DFAB70E00698E0A /* ActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSheet.swift; sourceTree = "<group>"; };
+		D9DDA40D1DFAB70E00698E0A /* ActionSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionSheet.xib; sourceTree = "<group>"; };
+		D9DDA40E1DFAB70E00698E0A /* ShareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+		D9DDA40F1DFAB70E00698E0A /* ShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,7 @@
 		607FACD21AFB9204008FA782 /* Example for HLPopManager */ = {
 			isa = PBXGroup;
 			children = (
+				D9DDA40B1DFAB70E00698E0A /* CustomViews */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -157,6 +166,17 @@
 				7BE64BE3D2907D0425B556A9 /* Pods_HLPopManager_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9DDA40B1DFAB70E00698E0A /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				D9DDA40C1DFAB70E00698E0A /* ActionSheet.swift */,
+				D9DDA40D1DFAB70E00698E0A /* ActionSheet.xib */,
+				D9DDA40E1DFAB70E00698E0A /* ShareView.swift */,
+				D9DDA40F1DFAB70E00698E0A /* ShareView.xib */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +270,8 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				D9DDA4131DFAB70E00698E0A /* ShareView.xib in Resources */,
+				D9DDA4111DFAB70E00698E0A /* ActionSheet.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +382,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DDA4121DFAB70E00698E0A /* ShareView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				D9DDA4101DFAB70E00698E0A /* ActionSheet.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
