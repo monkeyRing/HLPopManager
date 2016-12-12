@@ -60,7 +60,7 @@ end
 #### Then, run the following command:
 
 ```
- $ pod install "HLPopManager"
+ $ pod install
 ```
 
 ## Author
