@@ -8,7 +8,7 @@
 ## Preview
 
 
-[screenshot](https://github.com/MonkeyRing/HLPopManager/blob/master/screenshot.gif)
+[screenshot](https://github.com/MonkeyRing/HLPopManager/blob/master/1234.gif)
 
 
 ## Example
