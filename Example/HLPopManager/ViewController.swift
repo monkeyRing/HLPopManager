@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     }
 
     lazy var titles:[String] = {
-        let titles = ["TransitionFromLeft","TransitionFromRight","TransitionFromTop","TransitionFromBottom","微信样式底部弹出","微信样式3D效果","分享界面底部弹出","分享界面3D效果","TransitionFromNone"]
+        let titles = ["TransitionFromLeft","TransitionFromRight","TransitionFromTop","TransitionFromBottom","TransitionFromPop","微信样式底部弹出","微信样式3D效果","分享界面底部弹出","分享界面3D效果","TransitionFromNone"]
         return titles
     }()
 
@@ -55,25 +55,26 @@ extension ViewController: UITableViewDataSource,UITableViewDelegate {
         shareView.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 225)
         
         switch indexPath.row {
-        case 0:
+        case 0 :
             PopManager.shared.present(inView: (self.navigationController?.view)!, containerView: adImageView, animStyle: .transitionLeft)
-        case 1:
+        case 1 :
             PopManager.shared.present(inView: (self.navigationController?.view)!, containerView: adImageView, animStyle: .transitionRight)
-        case 2:
+        case 2 :
             PopManager.shared.present(inView: (self.navigationController?.view)!, containerView: adImageView, animStyle: .transitionTop)
-        case 3:
+        case 3 :
             PopManager.shared.present(inView: (self.navigationController?.view)!, containerView: adImageView, animStyle: .transitionBottom)
-        case 4:
+        case 4 :
+            PopManager.shared.present(inView: (self.navigationController?.view)!, containerView: adImageView, animStyle: .transitionPop)
+        case 5 :
             PopManager.shared.present(inView: (self.navigationController?.view)!, containerView: actionSheet, animStyle: .transition2D)
-        case 5:
+        case 6 :
             PopManager.shared.present(inView: (self.navigationController?.view)!, containerView: actionSheet, animStyle: .transition3D)
-        case 6:
-            PopManager.shared.present(inView: (self.navigationController?.view)!, containerView: shareView, animStyle: .transition2D)
         case 7 :
+            PopManager.shared.present(inView: (self.navigationController?.view)!, containerView: shareView, animStyle: .transitionTop)
+        case 8 :
             PopManager.shared.present(inView: (self.navigationController?.view)!, containerView: shareView, animStyle: .transition3D)
-        case 8:
+        case 9 :
             PopManager.shared.present(inView: (self.navigationController?.view)!, containerView: adImageView, animStyle: .transitionNone)
-            
         default: break
         }
     }
